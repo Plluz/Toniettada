@@ -99,10 +99,36 @@ anchor_left = 0.0
 anchor_top = 0.0
 anchor_right = 0.0
 anchor_bottom = 0.0
-margin_left = 407.0
-margin_top = 396.0
-margin_right = 504.0
-margin_bottom = 416.0
+margin_left = 408.0
+margin_top = 394.0
+margin_right = 505.0
+margin_bottom = 414.0
+rect_scale = Vector2( 3, 3 )
+rect_pivot_offset = Vector2( 4, 0 )
+rect_clip_content = false
+focus_mode = 2
+mouse_filter = 0
+mouse_default_cursor_shape = 0
+size_flags_horizontal = 1
+size_flags_vertical = 1
+toggle_mode = false
+enabled_focus_mode = 2
+shortcut = null
+group = null
+text = "Cel Shading"
+flat = false
+align = 1
+
+[node name="Button5" type="Button" parent="Control"]
+anchor_left = 0.0
+anchor_top = 0.0
+anchor_right = 0.0
+anchor_bottom = 0.0
+margin_left = 405.0
+margin_top = 503.0
+margin_right = 502.0
+margin_bottom = 523.0
+rect_rotation = -208.176
 rect_scale = Vector2( 3, 3 )
 rect_pivot_offset = Vector2( 4, 0 )
 rect_clip_content = false
@@ -123,3 +149,4 @@ align = 1
 [connection signal="button_down" from="Control/Button2" to="." method="_on_Button2_button_down"]
 [connection signal="button_down" from="Control/Button3" to="." method="_on_Button3_button_down"]
 [connection signal="button_down" from="Control/Button4" to="." method="_on_Button4_button_down"]
+[connection signal="button_down" from="Control/Button5" to="." method="_on_Button4_button_down"]
